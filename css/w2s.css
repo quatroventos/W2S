@@ -1,0 +1,115 @@
+body{
+    background:url("/images/w2s_bg.jpg") no-repeat center;
+    font-family: 'Work Sans', sans-serif;
+}
+    header{
+        text-align: center;
+        background: #025E80;
+        height: 229px;
+        padding: 60px;
+    }
+
+        header .logo{
+            width: 276px;
+        }
+
+    .container{
+        padding:15px 100px;
+    }
+
+    h1{
+        color:#025E80;
+        font-weight: 700;
+        font-size:60px;
+    }
+
+    p{
+        color:#025E80;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .btn-primary, .btn-outline-primary{
+        font-size:32px;
+        font-weight: 700;
+        width: 430px;
+        height: 150px;
+        border-radius:20px;
+        padding:25px 40px;
+    }
+
+        .btn-primary{
+            background-color: #025E80;
+        }
+            .btn-primary:hover{
+                background-color: #EF7D19;
+                color:#fff;
+                border-color: #EF7D19;
+            }
+
+        .btn-outline-primary{
+            background-color: #fff;
+            border-color: #025E80;
+            color:#025E80;
+            padding-top:50px
+        }
+            .btn-outline-primary:hover {
+                background-color: #EF7D19;
+                color:#fff;
+                border-color: #EF7D19;
+            }
+
+    .card{
+        border-color:#EF7D19;
+        border-radius: 20px;
+        margin-top:30px;
+        margin-bottom:50px;
+    }
+        .card-header{
+            background:#EF7D19;
+            margin-top:-2px;
+            padding-top:20px;
+            border-radius:20px !important;
+            text-align: center;
+        }
+            .card-header h2 {
+                color:white;
+                font-weight: bolder;
+                font-size: 34px;
+            }
+
+            .card-body{
+                padding:30px;
+            }
+
+            .card-body ul{
+                list-style: none;
+            }
+
+                .card-body ul li{
+                    color: #025E80;
+                    font-weight: 200;
+                    font-size:23px;
+                    margin-bottom:10px;
+                }
+
+                    .card-body ul li:before {
+                        content: "\f00c"; /* FontAwesome Unicode */
+                        color: #EF7D19;
+                        font-family: FontAwesome;
+                        display: inline-block;
+                        margin-left: -1.3em; /* same as padding-left set on li */
+                        width: 1.3em; /* same as padding-left set on li */
+                   }
+
+    .footer{
+        background: #EF7D19;
+        text-align: center;
+        width: 100%;
+        margin-top:40px;
+    }
+
+        .footer p{
+            color:#fff;
+            font-size: 28px;
+        }
