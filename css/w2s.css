@@ -2,6 +2,11 @@ body{
     background:url("/images/w2s_bg.jpg") no-repeat center;
     font-family: 'Work Sans', sans-serif;
 }
+    .g-10,
+    .gx-10 {
+        --bs-gutter-x: 6rem;
+    }
+
     header{
         text-align: center;
         background: #025E80;
@@ -15,6 +20,10 @@ body{
 
     .container{
         padding:15px 100px;
+    }
+
+    a{
+        text-decoration: none;
     }
 
     h1{
@@ -82,25 +91,31 @@ body{
                 padding:30px;
             }
 
-            .card-body ul{
-                list-style: none;
-            }
-
-                .card-body ul li{
-                    color: #025E80;
+                .card-body p{
                     font-weight: 200;
-                    font-size:23px;
-                    margin-bottom:10px;
+                    font-size: 32px;
+                    padding: 0 20px;
                 }
 
-                    .card-body ul li:before {
-                        content: "\f00c"; /* FontAwesome Unicode */
-                        color: #EF7D19;
-                        font-family: FontAwesome;
-                        display: inline-block;
-                        margin-left: -1.3em; /* same as padding-left set on li */
-                        width: 1.3em; /* same as padding-left set on li */
-                   }
+                .card-body ul{
+                    list-style: none;
+                }
+
+                    .card-body ul li{
+                        color: #025E80;
+                        font-weight: 200;
+                        font-size:23px;
+                        margin-bottom:10px;
+                    }
+
+                        .card-body ul li:before {
+                            content: "\f00c"; /* FontAwesome Unicode */
+                            color: #EF7D19;
+                            font-family: FontAwesome;
+                            display: inline-block;
+                            margin-left: -1.3em; /* same as padding-left set on li */
+                            width: 1.3em; /* same as padding-left set on li */
+                       }
 
     .footer{
         background: #EF7D19;
@@ -113,3 +128,4 @@ body{
             color:#fff;
             font-size: 28px;
         }
+
