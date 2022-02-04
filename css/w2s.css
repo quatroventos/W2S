@@ -14,14 +14,15 @@ body{
         height: 229px;
         padding: 60px;
     }
+@media (min-width: 1024px) {
+    header .logo {
+        width: 276px;
+    }
 
-        header .logo{
-            width: 276px;
-        }
-
-    .container{
+    .container {
         padding:15px 100px;
     }
+}
 
     a{
         text-decoration: none;
@@ -55,12 +56,13 @@ body{
     }
 
         .btn-primary{
-            background-color: #025E80;
+            background-color: #25D366;
+            border-color: #25D366;
         }
             .btn-primary:hover{
-                background-color: #EF7D19;
+                background-color: #075E54;
                 color:#fff;
-                border-color: #EF7D19;
+                border-color: #075E54;
             }
 
         .btn-outline-primary{
